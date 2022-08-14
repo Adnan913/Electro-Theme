@@ -1,0 +1,156 @@
+.navbar{
+    background-color:#ffffff;
+    display:list-item;
+}
+.brand {
+    margin-left: 20px;
+    color: #333e48;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 35px;
+}
+.brand> span{
+    color: #fed700;
+}
+.headerCenter{
+    padding-bottom: 20px;
+}
+.headerBottom > .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.listGroup{
+    width: 270px;
+}
+.middle{
+    display: flex;
+    justify-content: start;
+}
+.onSmallScreenRight {
+    display: none;
+}
+.onSmallScreenLeft{
+    display: inline;
+   justify-content: start;
+}
+.toggle{
+    margin-left: 40px;
+}
+.fullScreenRight{
+    margin-right: 50px!important;
+}
+
+.fullScreenRight > ul {
+line-height: 10px;
+justify-content: flex-end;
+}
+.fullScreenRight > ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.search{
+    width: 34vw;
+    border-top-left-radius: 50px 20px;
+}
+.searchInput{
+    border: 2px solid #fed700;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.search > #button-addon2{
+    width: 60px;
+    border: #fed700 solid;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #fed700;
+}
+.free{
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 992px) {
+.navbar{
+        background-color: #fed700;
+}
+.fullScreenSearchBox{
+    display: none;
+}
+.onSmallScreenRight{
+    display: block;
+    line-height: 35px;
+    max-width: 100px;
+    }
+.onSmallScreenleft{
+    max-width: 50px;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+.brand {
+    color: #333e48;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 29px;
+    margin: 0;
+}
+
+.toggler{
+    border: none;
+    display: block;
+    color:#333e48;
+    font-size: 18px;
+}
+.onSmallScreenRight > ul{
+    /* display: inline; */
+    justify-content: end;
+} 
+  
+.onSmallScreenRight >ul li{
+    margin-left: 10px;
+} 
+.onSmallScreenRight> ul{
+    list-style-type: none;
+    display: flex;
+}
+.toggle{
+    width: 100%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.fullScreenRight{
+    display: none;
+}
+.starttoggle{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 800px) {
+ .toggle{
+    margin: 0;
+ }  
+}
+
+.fullScreenRight{
+    margin-right: 20px;
+}
+.fullScreenRight > ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.fullScreenRight >ul li{
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.free{
+    display: none;
+}
+   }
+   

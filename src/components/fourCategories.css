@@ -1,0 +1,27 @@
+.collection{
+    object-fit: cover;
+    width: 20vw;
+    margin:7px
+}
+
+.row{
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+.collection{
+    width: 30vw;
+}
+.row{
+    margin: 5px;
+}
+
+}
+
+@media only screen and (max-width: 575px) {
+    .collection{
+        width: 80vw;
+        margin:22px;
+    }
+}

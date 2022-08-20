@@ -25,7 +25,7 @@
 }
 .middle{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 .onSmallScreenRight {
     display: none;
@@ -142,9 +142,7 @@ justify-content: flex-end;
     list-style-type: none;
     display: inline-flex;
 }
-.fullScreenRight >ul li{
 
-}
 
 
 

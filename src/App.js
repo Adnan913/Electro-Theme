@@ -4,6 +4,10 @@ import HeaderCenter from './components/HeaderCenter'
 import Carousel from "./components/Carousel"
 import FourCategories from './components/FourCategories';
 import Featured from './components/Featured.jsx'
+import BestDeals from './components/BestDeals.jsx'
+import Footer from './components/Footer.jsx';
+// import "~slick-carousel/slick/slick.css"; 
+// import "~slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <Carousel/>
       <FourCategories/>
       <Featured/>
+      <BestDeals/>
+      <Footer/>
+
+      
     </>
   );
 }

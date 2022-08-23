@@ -1,0 +1,128 @@
+.card{
+    border:none;
+    background-color:  #ffffff;
+    border-radius:5px;
+
+}
+.card > a{
+    text-decoration: none;
+}
+.cardImage{
+    display: flex;
+    justify-content: center;
+}
+.cardImage > img{
+width: 192px;
+object-fit: contain;
+}
+.product-title{
+    text-align: start;
+}
+.cardTop{
+    margin-left: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.cardBottom{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+.cardBottom > span {
+    width: 35px;
+    height: 35px;
+    color:white;
+    background: #e6e6e6;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 28px;
+}
+
+.cardBottomHidden{
+    display:none ;
+    width: 80%;
+    margin: auto;
+    border-top :1px solid #dddddd;
+
+}
+/* .card:hover .card{
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #c6c6c6; 
+} */
+.card:hover .card::after{
+content: "";
+    position: relative;
+    left: 0;
+    top: 30px;
+    right: 0;
+    bottom: -30px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #c6c6c6;
+    
+    border: 1px solid gray;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .35s ease-in-out;
+}
+.card:hover .cardBottomHidden{
+    display: block;
+    /* position: absolute; */
+    z-index: 100;
+    
+    /* background-color: white; */
+}
+.card:hover .cardBottomHidden >div{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5;
+}
+
+.card:hover .cardBottom > span{
+background-color: #fed700;
+}
+.cardBottomHidden > div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 14px;
+    color:#878787;
+
+
+}
+/* .product-vendor:hover .product-vendor{
+    color: #fed700;
+}
+.product-title:hover .product-title{
+    color:#fed700;
+}
+.cardBottomHidden > div >p:hover .cardBottomHidden > div >p{
+    color:#fed700;
+} */
+
+
+@media only screen and (max-width: 1260px) {
+    .cardImage > img{
+        width: 150px;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .cardImage > img{
+        width: 22vw;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    .cardImage > img{
+        width: 35vw;
+    }
+    
+}

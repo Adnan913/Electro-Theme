@@ -1,0 +1,45 @@
+.footer-top{
+    background-color: #fed700;
+    padding: 10px;
+
+}
+.footer-top > Row >Col >div{
+    display: flex;
+
+}
+.footer-bottom{
+    padding-top: 15px;
+    background-color: #f8f8f8;
+}
+.footer-bottom-col> div > a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-bottom-col> div > a >p{
+    
+margin-top: 0;
+font-size: 14px;
+text-decoration: none;
+line-height: 15px;
+    
+}
+.newsletter-text{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-container{
+        margin-top: 0px;
+    }
+}
+
+.ccc{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.ccc > div{
+    height: 40px;
+}

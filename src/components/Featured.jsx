@@ -11,7 +11,7 @@ import './featured.css';
 
 function ResponsiveAutoExample() {
   return (
-    <Container fluid>
+    <Container fluid className='featured-section'>
       <Row >
         <Col lg={4} md={6} sm={12} xs={12} className="featuredLeft">
             <div className='leftOffer-product-card'>

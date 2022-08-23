@@ -12,16 +12,16 @@ import {AiOutlineShopping} from 'react-icons/ai';
 import {BsPerson,BsArrowLeftRight} from 'react-icons/bs'
 import {AiOutlineHeart} from 'react-icons/ai';
 import InputGroup from 'react-bootstrap/InputGroup';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Dropdown from 'react-bootstrap/Dropdown';
-import {GrUnorderedList} from 'react-icons/gr';
+// import ListGroup from 'react-bootstrap/ListGroup';
+// import Dropdown from 'react-bootstrap/Dropdown';
+// import {GrUnorderedList} from 'react-icons/gr';
 
 import "./headerCenter.css";
 
 function OffcanvasExample() {
   return (
     <>
-    <Navbar   expand="lg" className="mb-3 navbar">
+    <Navbar   expand="lg" className=" navbar">
           <Container fluid  className=' headerCenter'>
             <Row className='toggle'>
                 <Col sm className='onSmallScreenleft'>
